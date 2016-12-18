@@ -1,4 +1,4 @@
-(defproject macchiato/sql "0.0.1"
+(defproject macchiato/sql "0.0.2-SNAPSHOT"
   :description "Query parsing functions for Macchiato"
   :url "https://github.com/macchiato-framework/macchiato-sql"
   :scm {:name "git"
