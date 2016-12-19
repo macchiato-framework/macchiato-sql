@@ -1,5 +1,8 @@
 # macchiato-sql
 
+Build status: 
+[![CircleCI](https://circleci.com/gh/macchiato-framework/macchiato-sql.svg?style=svg)](https://circleci.com/gh/macchiato-framework/macchiato-sql)
+
 Query parsing functions for Clojure on NodeJS
 
 Initially intended for Macchiato as a port of [PREQL](https://github.com/NGPVAN/preql). We'll likely expand it into its own as we go.
