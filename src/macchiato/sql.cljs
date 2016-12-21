@@ -16,6 +16,7 @@
   before we hit 0.1.0."
   (:require [clojure.string :as string :refer [ends-with? lower-case split trim]]
             [macchiato.fs :as fs]
+            [macchiato.fs.path :as path]
             [schema.core :as s :include-macros true]))
 
 
@@ -39,7 +40,7 @@
 (defn list-sql-files
   "Gets a folder and returns a list of all SQL files it finds"
   [dir-name]
-  (let [path (fs/with-separator dir-name)]
+  (let [path (path/with-separator dir-name)]
     (->> (fs/read-dir-sync path)
          ;; We prepend the path so that we can both check if the file name
          ;; exists and return it so that it can be opened as-is
