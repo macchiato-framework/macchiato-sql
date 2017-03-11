@@ -11,7 +11,6 @@
 
 (deftest is-sql?-test
   (are [sql? name] (= sql? (sql/sql-file? name))
-                   true "test/files/query.SQL"
                    true "test/files/query.sql"
                    true "test/files/insert-name.sql"
                    false "test/files/simple-text.txt"

@@ -1,4 +1,4 @@
-(defproject macchiato/sql "0.0.1"
+(defproject macchiato/sql "0.0.2"
   :description "Query parsing functions for Macchiato"
   :url "https://github.com/macchiato-framework/macchiato-sql"
   :scm {:name "git"
@@ -7,8 +7,8 @@
             :url  "http://opensource.org/licenses/MIT"}
   :clojurescript? true
   :dependencies [[org.clojure/clojure "1.8.0" :scope "provided"]
-                 [org.clojure/clojurescript "1.9.293" :scope "provided"]
-                 [macchiato/fs "0.0.4"]
+                 [org.clojure/clojurescript "1.9.495" :scope "provided"]
+                 [macchiato/fs "0.0.6"]
                  [prismatic/schema "1.1.3"]]
   :plugins [[lein-cljsbuild "1.1.4"]
             [lein-codox "0.10.2"]
@@ -29,6 +29,11 @@
               :doo {:build "test"}}}
   :aliases
   {"test"
+   ["do"
+    ["npm" "install"]
+    ["clean"]
+    ["with-profile" "test" "doo" "node" "once"]]
+   "test-watch"
    ["do"
     ["npm" "install"]
     ["clean"]
