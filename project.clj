@@ -7,7 +7,7 @@
             :url  "http://opensource.org/licenses/MIT"}
   :clojurescript? true
   :dependencies [[org.clojure/clojure "1.8.0" :scope "provided"]
-                 [org.clojure/clojurescript "1.9.293" :scope "provided"]
+                 [org.clojure/clojurescript "1.9.495" :scope "provided"]
                  [macchiato/fs "0.0.6"]
                  [prismatic/schema "1.1.3"]]
   :plugins [[lein-cljsbuild "1.1.4"]
