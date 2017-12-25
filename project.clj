@@ -8,12 +8,12 @@
   :clojurescript? true
   :dependencies [[org.clojure/clojure "1.8.0" :scope "provided"]
                  [org.clojure/clojurescript "1.9.495" :scope "provided"]
-                 [macchiato/fs "0.0.6"]
-                 [prismatic/schema "1.1.3"]]
+                 [macchiato/fs "0.2.0"]
+                 [prismatic/schema "1.1.7"]]
   :plugins [[lein-cljsbuild "1.1.4"]
             [lein-codox "0.10.2"]
             [lein-doo "0.1.7"]
-            [lein-npm "0.6.2"]]
+            [macchiato/lein-npm "0.6.4"]]
   :npm {:dependencies []}
   :profiles {:test
              {:cljsbuild
