@@ -6,8 +6,8 @@
   :license {:name "MIT License"
             :url  "http://opensource.org/licenses/MIT"}
   :clojurescript? true
-  :dependencies [[org.clojure/clojure "1.8.0" :scope "provided"]
-                 [org.clojure/clojurescript "1.9.495" :scope "provided"]
+  :dependencies [[org.clojure/clojure "1.9.0" :scope "provided"]
+                 [org.clojure/clojurescript "1.9.946" :scope "provided"]
                  [macchiato/fs "0.2.0"]
                  [prismatic/schema "1.1.7"]]
   :plugins [[lein-cljsbuild "1.1.4"]
