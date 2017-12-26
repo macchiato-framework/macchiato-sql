@@ -1,6 +1,10 @@
 # Change Log
 
 
+## 0.0.3
+
+Mostly dependency updates to remove warnings.
+
 ## 0.0.2
 
 ### Updates
