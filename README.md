@@ -9,6 +9,12 @@ Initially intended for Macchiato as a port of [PREQL](https://github.com/NGPVAN/
 
 This namespace only builds the queries as functions. Database access is expected to take place elsewhere, likely in an abstracted manner.  For an example, see [macchiato-db-scratchpad](https://github.com/macchiato-framework/macchiato-db-scratchpad/)
 
+This is `0.0.4-SNAPSHOT`.
+
+### Stable version
+
+[![Clojars Project](https://img.shields.io/clojars/v/macchiato/sql.svg)](https://clojars.org/macchiato/sql)
+
 ## Approach and limitations
 
 - One query, one file.
@@ -16,6 +22,10 @@ This namespace only builds the queries as functions. Database access is expected
 - Positional arguments only, doesn't yet take a HugSQL-like parameter map.
 
 Assume any functions are currently a work-in-progress and may change before we hit 0.1.0. 
+
+## Contributing
+
+This project uses [Github Flow](https://stackoverflow.com/questions/39917843/what-is-the-difference-between-github-flow-and-gitlab-flow).  Please make pull requests agains master, working off a feature or fix branch.
 
 ## Providing feeedback
 

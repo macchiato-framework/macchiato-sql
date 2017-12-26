@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.0.4-SNAPSHOT
+
+Switched development process to Github Flow. Removed `develop` branch.
 
 ## 0.0.3
 
